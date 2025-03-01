@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор товаров</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Выберите товары</h1>
+        <div class="product">
+            <input type="checkbox" id="Choice1" name="food" value="200">
+            <label for="Choice1">Пирог с яблоками - 200 ₽</label>
+        </div>
+        <div class="product">
+            <input type="checkbox" id="Choice2" name="food" value="150">
+            <label for="Choice2">Шоколадный кекс - 150 ₽</label>
+        </div>
+        <div class="product">
+            <input type="checkbox" id="Choice3" name="food" value="180">
+            <label for="Choice3">Торт с клубникой - 180 ₽</label>
+        </div>
+        <div class="product">
+            <input type="checkbox" id="Choice4" name="food" value="300">
+            <label for="Choice4">Брауни - 300 ₽</label>
+        </div>
+
+        <button class="button" id="calculateButton">Выбрать</button>
+
+        <div class="total">
+            <p>Общая стоимость: <span id="totalCost">0</span> ₽</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>
